@@ -76,6 +76,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/INFINITY-R13/Small-Java-Projects.git
+```
 
 Navigate to the project you want to run:
 
