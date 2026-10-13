@@ -8,7 +8,7 @@
 <br/>
 
 [![Java](https://img.shields.io/badge/Java-25%20LTS-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://openjdk.org/)
-[![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Cross--Platform-000000?style=flat-square&logo=apple&logoColor=white)](https://apple.com)
+[![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Cross--Platform-000000?style=flat-square)](https://apple.com)
 [![Design](https://img.shields.io/badge/Design-Apple%20HIG-FA2D48?style=flat-square)](https://developer.apple.com/design/human-interface-guidelines)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](#)
 
