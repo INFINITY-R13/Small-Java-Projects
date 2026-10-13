@@ -220,7 +220,3 @@ Text Editor/
 - **Decoupled Theme Architecture** — Components register listeners to `ThemeManager`, enabling instantaneous theme propagation across the entire interface without reloading documents.
 
 ---
-
-## 📄 License
-
-Open-source under the [MIT License](LICENSE) — free to use, modify, and distribute.
