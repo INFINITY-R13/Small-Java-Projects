@@ -1,0 +1,35 @@
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon\r
+._*
+.Spotlight-V100
+.Trashes
+
+# Java Build & Compilation Artifacts
+*.class
+build/
+bin/
+out/
+target/
+
+# IDE Configuration
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+*.sublime-workspace
+*.sublime-project
+
+# Runtime Caches & Temporary Audio
+.cache/
+.endless/
+demo-tracks/*.wav
+
+# Diagnostic Logs & Crash Dumps
+*.log
+hs_err_pid*
+replay_pid*
