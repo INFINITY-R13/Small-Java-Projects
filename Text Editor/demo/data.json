@@ -1,0 +1,25 @@
+{
+  "app": "AuraEdit",
+  "version": "1.0.0",
+  "theme": "catppuccin-mocha",
+  "settings": {
+    "fontFamily": "JetBrains Mono",
+    "fontSize": 14,
+    "tabSize": 4,
+    "bracketMatching": true,
+    "lineNumbers": true,
+    "wordWrap": true
+  },
+  "supportedLanguages": [
+    "Java",
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "JSON",
+    "Markdown",
+    "HTML",
+    "CSS",
+    "SQL",
+    "Shell"
+  ]
+}
