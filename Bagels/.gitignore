@@ -1,0 +1,35 @@
+# Compiled Java binaries
+*.class
+bin/
+out/
+build/
+dist/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+
+# Log files
+*.log
