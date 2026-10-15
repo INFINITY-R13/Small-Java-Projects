@@ -1,7 +1,6 @@
 # 🖼️ Bitmap Program in Java
 
 [![Java](https://img.shields.io/badge/Java-25%2B-orange.svg)](https://openjdk.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Zero Dependencies](https://img.shields.io/badge/Dependencies-Zero-brightgreen.svg)](#-technologies--design)
 [![Build Status](https://img.shields.io/badge/Tests-470%20Passed-success.svg)](#-testing)
 
