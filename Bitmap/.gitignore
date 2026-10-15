@@ -1,0 +1,29 @@
+# Compiled Java binaries
+*.class
+bin/
+out/
+build/
+dist/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Generated BMP output files
+*.bmp
+output/
+
+# IDE files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+
+# Logs
+*.log
