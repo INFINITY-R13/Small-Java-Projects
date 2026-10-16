@@ -1,0 +1,46 @@
+# Byte-compiled / compiled class files
+*.class
+*.jar
+*.war
+*.ear
+
+# Build directories
+bin/
+out/
+build/
+target/
+
+# IDE configurations
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Visual Studio Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs and runtime files
+*.log
+hs_err_pid*
+replay_pid*
