@@ -1,0 +1,38 @@
+# ── Compiled Java ────────────────────────────────────────────────────────────
+*.class
+
+# ── Build output directories ─────────────────────────────────────────────────
+out/
+build/
+bin/
+target/
+
+# ── IDE / Editor ─────────────────────────────────────────────────────────────
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/
+nb-configuration.xml
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Logs & temp files ─────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.swp
