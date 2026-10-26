@@ -1,0 +1,17 @@
+# Compiled class files
+*.class
+
+# Serialized animal state files
+tiger.txt
+penguin.txt
+dolphin.txt
+
+# macOS metadata
+.DS_Store
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+*.project
+*.classpath

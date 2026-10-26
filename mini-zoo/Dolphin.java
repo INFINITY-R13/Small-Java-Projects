@@ -1,17 +1,12 @@
-/**
- * A dolphin: swims, eats fish.
- */
-public class Dolphin extends Animal implements Swim {
+import java.io.Serializable;
 
-    private String color = "unknown";
-    private double swimmingSpeed;
+public class Dolphin extends Animal implements Swim, Serializable {
+
+    String color;
+    int swimmingSpeed;
 
     public Dolphin() {
         super("Dolphin");
-    }
-
-    public Dolphin(String nameOfAnimal) {
-        super(nameOfAnimal);
     }
 
     public String getColor() {
@@ -19,52 +14,34 @@ public class Dolphin extends Animal implements Swim {
     }
 
     public void setColor(String color) {
-        if (color == null || color.trim().isEmpty()) {
-            this.color = "unknown";
-        } else {
-            this.color = color.trim();
-        }
+        this.color = color;
     }
 
-    public double getSwimmingSpeed() {
+    public int getSwimmingSpeed() {
         return swimmingSpeed;
     }
 
-    public void setSwimmingSpeed(double swimmingSpeed) {
-        if (swimmingSpeed < 0) {
-            throw new IllegalArgumentException(
-                    "Swimming speed cannot be negative.");
-        }
+    public void setSwimmingSpeed(int swimmingSpeed) {
         this.swimmingSpeed = swimmingSpeed;
     }
 
     @Override
-    public void eatingFood() {
-        System.out.println("Dolphin: I am eating delicious fish");
+    public String toString() {
+        return "Dolphin{color='" + color + "', swimmingSpeed=" + swimmingSpeed + "}";
     }
 
-    /** The original was missing the "Dolphin: " prefix the other animals use. */
+    @Override
+    public void eatingFood() {
+        System.out.println("Dolphin: I am eating delicious fish.");
+    }
+
     @Override
     public void eatingCompleted() {
-        System.out.println("Dolphin: I have eaten fish");
+        System.out.println("Dolphin: I have eaten fish.");
     }
 
     @Override
     public void swimming() {
-        System.out.println("Dolphin: I am swimming at the speed of "
-                + swimmingSpeed + " nautical miles per hour");
-    }
-
-    @Override
-    public void move() {
-        swimming();
-    }
-
-    @Override
-    public void displayProperties() {
-        super.displayProperties();
-        System.out.println("Color: " + color);
-        System.out.println("Swimming speed: " + swimmingSpeed
-                + " nautical miles per hour");
+        System.out.println("Dolphin: I am swimming at the speed " + swimmingSpeed);
     }
 }
