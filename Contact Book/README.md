@@ -70,7 +70,7 @@
 ### Build
 
 ```bash
-git clone https://github.com/your-username/contact-book.git
+https://github.com/INFINITY-R13/Small-Java-Projects.git
 cd contact-book
 mvn clean package
 ```
