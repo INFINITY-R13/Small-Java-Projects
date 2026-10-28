@@ -160,7 +160,7 @@ This project is licensed under the **MIT License** — feel free to use, modify,
 ```
 MIT License
 
-Copyright (c) 2024 Contact Book Contributors
+Copyright (c) 2026 Contact Book Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
